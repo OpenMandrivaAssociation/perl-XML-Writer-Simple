@@ -15,7 +15,6 @@ BuildRequires:	perl-devel
 BuildRequires:	perl-XML-Parser
 BuildRequires:	perl-XML-DTDParser
 BuildRequires:	perl-XML-DT
-BuildRoot: 	%{_tmppath}/%{name}-%{version}-buildroot
 BuildArch:	noarch
 
 %description
