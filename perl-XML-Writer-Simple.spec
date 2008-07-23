@@ -1,6 +1,6 @@
 %define module 	XML-Writer-Simple
 %define version 0.01
-%define release %mkrel 1
+%define release %mkrel 3
 
 Summary:	Module for writing XML documents
 Name: 		perl-%{module}
