@@ -1,5 +1,5 @@
 %define module 	XML-Writer-Simple
-%define version 0.02
+%define version 0.03
 %define release %mkrel 1
 
 Summary:	Module for writing XML documents
