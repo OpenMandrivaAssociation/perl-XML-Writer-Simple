@@ -1,5 +1,4 @@
-%define upstream_name 	 XML-Writer-Simple
-%define upstream_version 0.08
+%define upstream_name 	 XML-Writer-Simple%define upstream_version 0.09
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -9,7 +8,7 @@ Summary:	Module for writing XML documents
 License:	GPL+ or Artistic
 URL:		http://search.cpan.org/dist/%{upstream_name}
 Group:		Development/Perl
-Source0:	http://www.cpan.org/modules/by-module/XML/XML-Writer-Simple-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/XML/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(XML::Parser)
@@ -78,5 +77,6 @@ make test
 - Add more buildrequires
 - First package for Mandriva
 - Create perl-XML-Writer-Simple
+
 
 

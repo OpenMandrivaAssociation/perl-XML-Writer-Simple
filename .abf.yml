@@ -1,4 +1,5 @@
 removed_sources:
   XML-Writer-Simple-0.07.tar.gz: 7c784e05559208daae42ad55a53ef9afe542d7fa
-sources:
   XML-Writer-Simple-0.08.tar.gz: 30d56b8ebcd52aa60212f181ed9a9ebed379c07d
+sources:
+  XML-Writer-Simple-0.09.tar.gz: 8a47f66caccefc7b40936622028c0a1edd597207
