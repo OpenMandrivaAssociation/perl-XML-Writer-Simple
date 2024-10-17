@@ -6,7 +6,7 @@ Release:	3
 
 Summary:	Module for writing XML documents
 License:	GPL+ or Artistic
-URL:		http://search.cpan.org/dist/%{upstream_name}
+URL:		https://search.cpan.org/dist/%{upstream_name}
 Group:		Development/Perl
 Source0:	http://www.cpan.org/modules/by-module/XML/%{upstream_name}-%{upstream_version}.tar.gz
 
