@@ -10,6 +10,7 @@ URL:		https://search.cpan.org/dist/%{upstream_name}
 Group:		Development/Perl
 Source0:	http://www.cpan.org/modules/by-module/XML/%{upstream_name}-%{upstream_version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(XML::Parser)
 BuildRequires:	perl(XML::DTDParser)
