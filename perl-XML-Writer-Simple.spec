@@ -1,14 +1,15 @@
-%define upstream_name 	 XML-Writer-Simple%define upstream_version 0.09
+%define upstream_name 	 XML-Writer-Simple
+%define upstream_version 0.12
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Module for writing XML documents
 License:	GPL+ or Artistic
-URL:		https://search.cpan.org/dist/%{upstream_name}
+URL:		https://natura.di.uminho.pt/svn/main/xml/XML-Writer-Simple
 Group:		Development/Perl
-Source0:	http://www.cpan.org/modules/by-module/XML/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/A/AM/AMBS/XML-Writer-Simple-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
