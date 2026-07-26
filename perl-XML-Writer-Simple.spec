@@ -1,15 +1,13 @@
 %define upstream_name 	 XML-Writer-Simple
-%define upstream_version 0.12
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.12
+Release:	2
 
 Summary:	Module for writing XML documents
 License:	GPL+ or Artistic
 URL:		https://natura.di.uminho.pt/svn/main/xml/XML-Writer-Simple
 Group:		Development/Perl
-Source0:	https://cpan.metacpan.org/authors/id/A/AM/AMBS/XML-Writer-Simple-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/A/AM/AMBS/XML-Writer-Simple-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -23,7 +21,7 @@ XML-Writer-Simple is a simple Perl module to write XML. It takes some
 ideas from CGI and applies them for the XML World.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -47,8 +45,7 @@ make test
 
 * Tue Jul 28 2009 Jérôme Quelin <jquelin@mandriva.org> 0.50.0-1mdv2010.0
 + Revision: 401814
-- rebuild using %%perl_convert_version
-- fixed license field
+- rebuild using %0.12 fixed license field
 
 * Fri May 01 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.05-1mdv2010.0
 + Revision: 370251
